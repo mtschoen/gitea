@@ -107,7 +107,8 @@ prime/
 /man
 
 # Ignore AI/LLM instruction files
-/.claude/
+.claude/*
+!.claude/settings.json
 /.cursorrules
 /.cursor/
 /.goosehints
